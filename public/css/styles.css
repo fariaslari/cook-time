@@ -1,0 +1,74 @@
+/*!
+ * Start Bootstrap - Portfolio Item (https://startbootstrap.com/template-overviews/portfolio-item)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-portfolio-item/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+footer .container{
+    position: relative;
+    color: #fff;
+}
+
+#edamam-badge{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media (max-width: 767px) {
+  footer .container{
+     text-align: center;
+  }
+  
+  #edamam-badge{
+    position: initial;
+    display: inline-table;
+    margin: 15px auto;
+  }
+}
+
+.shortcut{
+  text-align: center;
+}
+
+.shortcut{
+  text-align: center;
+  border: solid transparent;
+}
+
+.shortcut .title{
+    display: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: #343a40;
+    position: absolute;
+    vertical-align: middle;
+    line-height: 160px;
+    left: 0;
+    right: 0;
+}
+
+.shortcut:hover .title{
+    cursor: pointer;
+    display: initial;
+    z-index: 1;
+    opacity: 1;
+}
+
+.shortcut:hover{
+    border: solid #343a40;
+}
+
+.shortcut:hover img{
+    opacity: 0.2;
+}

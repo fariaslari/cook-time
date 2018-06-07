@@ -3,26 +3,26 @@
 {% block body %}
 
       <!-- Portfolio Item Heading -->
-      <h1 class="my-4">Page Heading
-        <small>Secondary Text</small>
+      <h1 class="my-4">What are you hungry for?
+        <small>Let's find out...</small>
       </h1>
 
       <!-- Portfolio Item Row -->
       <div class="row">
 
         <div class="col-md-8">
-          <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+          <img class="img-fluid" src="{{ asset('img/food1.jpg') }}" alt="">
         </div>
 
         <div class="col-md-4">
-          <h3 class="my-3">Project Description</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-          <h3 class="my-3">Project Details</h3>
+          <h3 class="my-3">Find Recipes</h3>
+          <p>Here you can find recipes according to your taste and needs. Search by:</p>
           <ul>
-            <li>Lorem Ipsum</li>
-            <li>Dolor Sit Amet</li>
-            <li>Consectetur</li>
-            <li>Adipiscing Elit</li>
+            <li>Ingredients;</li>
+            <li>Preparation time;</li>
+            <li>Number of ingredients;</li>
+            <li>Calories;</li>
+            <li>And much more...</li>
           </ul>
         </div>
 
@@ -30,32 +30,44 @@
       <!-- /.row -->
 
       <!-- Related Projects Row -->
-      <h3 class="my-4">Related Projects</h3>
+      <h3 class="my-4">Need a start point?</h3>
 
-      <div class="row">
+      <div class="row relative">
 
         <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-          </a>
+          <div class="shortcut">
+            <p class="title">Pasta</p>
+            <a href="#">
+              <img class="img-fluid" src="{{ asset('img/pasta.jpg') }}" alt="Pasta">
+            </a>
+          </div>
         </div>
 
         <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-          </a>
+          <div class="shortcut">
+            <p class="title">Meat</p>
+            <a href="#">
+              <img class="img-fluid" src="{{ asset('img/meat.jpg') }}" alt="Meat">
+            </a>
+          </div>
         </div>
 
         <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-          </a>
+          <div class="shortcut">
+            <p class="title">Sea Food</p>
+            <a href="#">
+              <img class="img-fluid" src="{{ asset('img/fish.jpg') }}" alt="Sea Food">
+            </a>
+          </div>
         </div>
 
         <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-          </a>
+          <div class="shortcut">
+            <p class="title">Vegan</p>
+            <a href="#">
+              <img class="img-fluid" src="{{ asset('img/vegan.jpg') }}" alt="Vegan">
+            </a>
+          </div>
         </div>
 
       </div>
