@@ -2,7 +2,6 @@
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
     locale: 'en'
-    edaman_api_url: 'https://api.edamam.com/'
     edamam_api_app_id: '92109eee'
     edaman_api_app_key: '7c9af71df373767a92be920fd341fc5f'
 
